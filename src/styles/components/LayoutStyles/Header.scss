@@ -1,0 +1,62 @@
+header {
+  position: absolute;
+  width: 100%;
+  height: 53%;
+  .container-global-header {
+    display: flex;
+    width: 100%;
+    height: 76px;
+    justify-content: space-around;
+    border-radius: 0px 0px 30% 30%;
+    border-bottom: 0.1px solid #fa0f1738;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    animation-name: parpadeo;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    background-color: azure;
+    .container-logo-adobe {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img {
+        cursor: pointer;
+        width: 65%;
+      }
+    }
+    .principal-sections {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      p {
+        color: rgb(125, 125, 125);
+        font-size: 20px;
+        cursor: pointer;
+        text-shadow: 0px 1px 3px rgb(183, 183, 183);
+      }
+      p:hover {
+        color: rgba(125, 125, 125, 0.521);
+        font-size: 20px;
+        text-shadow: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @keyframes parpadeo {
+    0% {
+      box-shadow: none;
+    }
+
+    50% {
+      box-shadow: 5px 0px 5px #fa0f18;
+    }
+
+    100% {
+      box-shadow: none;
+    }
+  }
+}

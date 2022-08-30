@@ -1,0 +1,22 @@
+.container-global-home-info {
+  .sections-selector {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    height: 60px;
+    align-items: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    p:hover {
+      transform: scale(1.1);
+      transition-duration: 1s;
+    }
+  }
+}
+
+.carousel {
+  height: 430px;
+}

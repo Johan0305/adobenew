@@ -1,0 +1,23 @@
+//Abstracts
+@import "./styles/abstracts/mixins";
+@import "./styles/abstracts/variables";
+
+//Base
+@import "./styles/base/base";
+@import "./styles/base/resets";
+
+//Pages
+@import "./styles/pages/Home.scss";
+@import "./styles/pages/Profiles.scss";
+@import "./styles/pages/Sectores.scss";
+
+//Components
+//Layout
+@import "./styles/components/LayoutStyles/Header.scss";
+@import "./styles/components/LayoutStyles/Footer.scss";
+@import "./styles/components/LayoutStyles/Layout.scss";
+// Home
+@import "./styles/components/Home/AdobeSign.scss";
+@import "./styles/components/Home/Eventos.scss";
+@import "./styles/components/Home/NPromociones.scss";
+@import "./styles/components/Home/General.scss";
