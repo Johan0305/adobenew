@@ -1,9 +1,13 @@
 import React from "react";
+import background from "../../assets/backgrounds/banner-doc-cloud-2.png";
 
 const General = () => {
   return (
     <div className="container-carousel-general">
-      <div className="container-banner1">
+      <div
+        className="container-banner1"
+        style={{ backgroundImage: `url(${background})` }}
+      >
         <div className="container-info-banner-general">
           <p className="title-banner">
             Alcanza un retorno de inversión del 420%*

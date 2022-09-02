@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 const Header = () => {
   const ubication = window.location.pathname;
   let navigate = useNavigate();
-  console.log(ubication);
   return (
     <header>
       <div className="container-global-header">
